@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.count-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    background-color: aqua;
+}
+
+button {
+    background-color: red;
+}
+
+.count-field-minutes {
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    width: 50%;
+}
+
+.count-field-seconds {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 1px solid green;
+}
